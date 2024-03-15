@@ -1,0 +1,79 @@
+{
+  "kind": "singleType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "agape": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "fumane": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "outfit_highlighters": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "agape_title": {
+      "type": "string"
+    },
+    "fumane_title": {
+      "type": "string"
+    },
+    "outfit_highlighters_title": {
+      "type": "string"
+    },
+    "sub_heading": {
+      "type": "string"
+    },
+    "project_description": {
+      "type": "text"
+    },
+    "project_info": {
+      "type": "text"
+    },
+    "agape_url": {
+      "type": "text"
+    },
+    "fumane_url": {
+      "type": "text"
+    },
+    "outfit_highlighters_url": {
+      "type": "text"
+    }
+  }
+}

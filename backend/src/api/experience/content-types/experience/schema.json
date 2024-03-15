@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "experiences",
+  "info": {
+    "singularName": "experience",
+    "pluralName": "experiences",
+    "displayName": "Experience",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "skills": {
+      "type": "text"
+    },
+    "experience_summmary": {
+      "type": "text"
+    },
+    "skills_title": {
+      "type": "string"
+    },
+    "job_history": {
+      "type": "text"
+    },
+    "experience_summmary2": {
+      "type": "text"
+    },
+    "job_history2": {
+      "type": "text"
+    },
+    "cv": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "downloadCv": {
+      "type": "string"
+    }
+  }
+}
