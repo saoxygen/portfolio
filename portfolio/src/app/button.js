@@ -9,7 +9,7 @@ export default function Button({ call_to_action, phone_number, email, download }
     //let contact_div = document.getElementById("contact_details");
 
     const handleClick = (event) => {
-        console.log('className:', event.currentTarget.title);
+        //console.log('className:', event.currentTarget.title);
         if (event.currentTarget.title.includes('hide')) {
             //contact_details = "contact_details";
             //contact_div.classList.remove('hide');
